@@ -81,15 +81,6 @@ celerybeat-schedule
 # SageMath parsed files
 *.sage.py
 
-# Environments
-.env
-.venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
-
 # Spyder project settings
 .spyderproject
 .spyproject
@@ -102,3 +93,16 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# Environments
+env_aikek
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+#data
+data/external/*
