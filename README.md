@@ -9,9 +9,7 @@ our mission
 create a channel that will send a message like how AI will replace human & another action with AI. and all news have very hard (trash and waste) & more truth history & of course, more :kekeke:
 
 
-
-
-Citation:
+citation:
 --------
 
     @inproceedings{AIkek,
