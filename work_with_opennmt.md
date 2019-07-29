@@ -8,7 +8,7 @@ some commands for [opennmt](https://github.com/OpenNMT/OpenNMT-py/tree/master/on
 - train:
     - simple nn
                 
-                $ python train.py -save_model models/002/002 -data data/demo -copy_attn -global_attention mlp -word_vec_size 256 -rnn_size 512 -layers 1 -encoder_type brnn -train_steps 210000 -max_grad_norm 2 -dropout 0\.2 -batch_size 128 -valid_batch_size 16 -optim adagrad -learning_rate 0.15 -adagrad_accumulator_init 0.1 -reuse_copy_attn -copy_loss_by_seqlength -bridge -seed 777 -save_checkpoint_steps 100000 -report_every 10000 -world_size 1 -gpu_ranks 0
+          $ python train.py -save_model models/002/002 -data data/demo -copy_attn -global_attention mlp -word_vec_size 256 -rnn_size 512 -layers 1 -encoder_type brnn -train_steps 210000 -max_grad_norm 2 -dropout 0\.2 -batch_size 128 -valid_batch_size 16 -optim adagrad -learning_rate 0.15 -adagrad_accumulator_init 0.1 -reuse_copy_attn -copy_loss_by_seqlength -bridge -seed 777 -save_checkpoint_steps 100000 -report_every 10000 -world_size 1 -gpu_ranks 0
          
   - transformer
   
