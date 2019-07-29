@@ -104,5 +104,12 @@ ENV/
 env.bak/
 venv.bak/
 
-#data
+# extensions
+*.gz
+
+# data
 data/external/*
+data/interim/*
+
+# enable_data
+!data/interim/nplus1.csv.gz
