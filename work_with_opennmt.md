@@ -1,45 +1,8 @@
-================
-summa – textrank
-================
-
-TextRank implementation for text summarization and keyword extraction in Python 3,
-with `optimizations on the similarity function <https://arxiv.org/pdf/1602.03606.pdf>`_.
-
-
-Features
---------
-
-* Text summarization
-* Keyword extraction
-
-Examples
---------
-
-Text summarization::
-    
-
-    >>> text = """Automatic summarization is the process of reducing a text document with a \
-    computer program in order to create a summary that retains the most important points \
-    of the original document. As the problem of information overload has grown, and as \
-    the quantity of data has increased, so has interest in automatic summarization. \
-    Technologies that can make a coherent summary take into account variables such as \
-    length, writing style and syntax. An example of the use of summarization technology \
-    is search engines such as Google. Document summarization is another."""
-
-    >>> from summa import summarizer
-    >>> print(summarizer.summarize(text))
-    'Automatic summarization is the process of reducing a text document with a computer
-    program in order to create a summary that retains the most important points of the
-    original document.'
-
-
-
-================
 some commands for [opennmt](https://github.com/OpenNMT/OpenNMT-py/tree/master/onmt)
-================
+--------
 
 * preprocess::
-    >>> $ python preprocess.py -train_src data/src-train.txt -train_tgt data/tgt-train.txt -valid_src data/src-val.txt -valid_tgt data/tgt-val.txt -save_data data/demo -src_seq_length 10000 -tgt_seq_length 10000 -src_seq_length_trunc 400 -tgt_seq_length_trunc 100 -dynamic_dict -share_vocab -shard_size 100000
+    $ python preprocess.py -train_src data/src-train.txt -train_tgt data/tgt-train.txt -valid_src data/src-val.txt -valid_tgt data/tgt-val.txt -save_data data/demo -src_seq_length 10000 -tgt_seq_length 10000 -src_seq_length_trunc 400 -tgt_seq_length_trunc 100 -dynamic_dict -share_vocab -shard_size 100000
     
     
 * train
