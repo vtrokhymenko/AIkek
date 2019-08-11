@@ -10,6 +10,9 @@
     * `news_lenta.csv.gz` - 699746 rows (09/1999-07/2018) from [here](https://toolbox.google.com/datasetsearch/search?query=News%20dataset%20from%20Lenta.Ru&docid=WZBj5lLTe7UR9JeoAAAAAA%3D%3D)
     * `ria.csv.gz` - 1003840 rows (01/2010-12/14)
 * **processed** _(the final, canonical data sets for modeling)_:
-    * `yellow.csv` - 10761 rows
+    * title:
+        - `yellow.csv` - 10761 rows
+    * text:
+        - `...` # at future
 * **raw** _(the original, immutable data dump)_:
     * `...`
