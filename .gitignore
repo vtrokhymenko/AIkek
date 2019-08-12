@@ -108,8 +108,7 @@ venv.bak/
 *.gz
 
 # data
-data/external/*
-data/interim/*
+data/*
 
 # enable_data
 !data/interim/nplus1.csv.gz
