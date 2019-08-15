@@ -15,6 +15,7 @@
         - `nplus1-only_title.csv.gz` - 6529 rows
         - `webhose_2016-only_title.csv.gz` - 289813 rows
         - `ria-only_title.csv.gz` - 1003840 rows
+        - `concat_title_dirty.csv.gz` - concat dirty title above data (2010688 rows)
 * **processed** _(the final, canonical data sets for modeling)_:
     * `...`
 * **raw** _(the original, immutable data dump)_:
