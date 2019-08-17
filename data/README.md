@@ -1,4 +1,5 @@
-## data
+data
+--------
 
 * **external** _(data from third party sources interim)_:
     * `n+1` - (12/2016-03/2019)
@@ -15,7 +16,7 @@
         - `nplus1-only_title.csv.gz` - 6529 rows
         - `webhose_2016-only_title.csv.gz` - 289813 rows
         - `ria-only_title.csv.gz` - 1003840 rows
-        - `concat_title_dirty.csv.gz` - concat dirty title above data (2010688 rows)
+        - `concat_title_clean.csv.gz` - clean, filter len>5 and concat all titles above data (2009306 rows) |some data loaded|
 * **processed** _(the final, canonical data sets for modeling)_:
     * `...`
 * **raw** _(the original, immutable data dump)_:
