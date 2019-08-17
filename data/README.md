@@ -16,7 +16,7 @@ data
         - `nplus1-only_title.csv.gz` - 6529 rows
         - `webhose_2016-only_title.csv.gz` - 289813 rows
         - `ria-only_title.csv.gz` - 1003840 rows
-        - `concat_title_clean.csv.gz` - clean, filter len>5 and concat all titles above data (2010688 rows) |loaded to git|
+        - `concat_title_clean.csv.gz` - clean, filter len>5 and concat all titles above data (2010688 rows)
 * **processed** _(the final, canonical data sets for modeling)_:
     * `...`
 * **raw** _(the original, immutable data dump)_:
