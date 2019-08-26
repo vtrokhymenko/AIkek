@@ -18,6 +18,6 @@ data
         - `ria-only_title.csv.gz` - 1003840 rows
         - `concat_title_clean.csv.gz` - clean, filter len>5 and concat all titles above data (2009306 rows) |some data loaded|
 * **processed** _(the final, canonical data sets for modeling)_:
-    * `...`
+    * `4markov_model.csv` - _11202 rows for markov model_
 * **raw** _(the original, immutable data dump)_:
     * `...`
