@@ -2,6 +2,7 @@ AIkek
 -----
 
 more at [wiki](https://github.com/vtrokhymenko/AIkek/wiki)
+
 also, we lead [git-project](https://github.com/vtrokhymenko/AIkek/projects)
 
 
