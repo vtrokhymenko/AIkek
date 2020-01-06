@@ -10,6 +10,6 @@ citation:
         title={AIkek: open-source project from ods.ai},
         author={Viktor Trokhymenko & Marina Pozhidaeva},
         email={trokhymenkoviktor@gmail.com & m.a.pozhidaeva@gmail.com}
-        year={2019}
+        year={2020}
         license={MIT}
     }
