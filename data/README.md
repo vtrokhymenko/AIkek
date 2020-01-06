@@ -2,7 +2,7 @@ data
 --------
 
 * **external** _(data from third party sources interim)_:
-    * `n+1` - (12/2016-03/2019)
+    * `nplus1.tar.gz` - (12/2016-03/2019)
     * `654_webhose-2016.tar.gz` - (2016) from [here](https://webhose.io/free-datasets/russian-news-articles/)
     * `ria.json.gz` - (01/2010-12/14) from [here](https://github.com/RossiyaSegodnya/ria_news_dataset)
 * **interim** _(intermediate data that has been transformed)_:

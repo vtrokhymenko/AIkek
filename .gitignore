@@ -104,6 +104,8 @@ ENV/
 env.bak/
 venv.bak/
 
+.vscode/
+
 # extensions
 *.gz
 
