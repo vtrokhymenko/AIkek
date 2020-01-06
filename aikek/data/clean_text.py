@@ -1,13 +1,3 @@
-"""
-author: Viktor Trokhymenko
-e-mail: viktor.trokhymenko@gen.tech
-project: autoTagging
-program: clean_text.py
-descriptions: clean text for all articles
-version: 0.1
-data: 08/2019
-"""
-
 import html
 import re
 
@@ -40,7 +30,7 @@ def cleanText(article: str = None) -> str:
 
     text = re.sub('(\|\s*\S*)$', '', text)  # del all end of string after '|'
     # del first char '-' & ':'
-    #text = re.sub('(^\s*-)|(^-)|(-\s*$)|(-$)|(:$)|(:\s*$)|(\-\s*.$)|[\]|[]', '', text)
+    # text = re.sub('(^\s*-)|(^-)|(-\s*$)|(-$)|(:$)|(:\s*$)|(\-\s*.$)|[\]|[]', '', text)
     text = re.sub(' : ', '', text)  # replace ':'
     # replace all kind apostrophe to one
     text = re.sub(r"\ ́|\’|\‘|\'|\”", '', text)
@@ -53,10 +43,8 @@ def cleanText(article: str = None) -> str:
     text = re.sub('[♛☄_…©*@^•·\|]|[=]|[/]', ' ', text)
     text = re.sub('—|–', '-', text)
 
-    #text = re.sub(r'\r\n\t|\n|\r\t|\\n|&gt', ' ', text)
-    
+    # text = re.sub(r'\r\n\t|\n|\r\t|\\n|&gt', ' ', text)
     text = re.sub('(\xa0)', ' ', text)
-    
     text = re.sub('(\s\s\s*)', ' ', text)  # del long whitespaces
     text = re.sub('^(!(!?)\s)', '', text)  # remove start !
     text = re.sub('|\/||@|\|~|>|<|=', '', text)  # remove some punctuations
