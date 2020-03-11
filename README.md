@@ -1,11 +1,10 @@
-AIkek
------
+## AIkek
 
-more at [wiki](https://github.com/vtrokhymenko/AIkek/wiki) & at [git-projects](https://github.com/vtrokhymenko/AIkek/projects)
+more at [wiki](https://github.com/vtrokhymenko/AIkek/wiki) & at
+[git-projects](https://github.com/vtrokhymenko/AIkek/projects)
 
+## citation:
 
-citation:
---------
     @inproceedings{AIkek,
         title={AIkek: open-source project from ods.ai},
         author={Viktor Trokhymenko & Marina Pozhidaeva},
