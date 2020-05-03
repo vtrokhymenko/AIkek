@@ -15,7 +15,8 @@ def cleanText(article: str = None) -> str:
         clean str
     """
 
-    assert type(article) == str, 'input value isn`t string'
+    if type(article) != str:
+        raise AssertionError('input value isn`t string')
 
     text = html.unescape(article)
 
