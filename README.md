@@ -1,14 +1,14 @@
 ## aikek
 
-more at [wiki](https://github.com/vtrokhymenko/AIkek/wiki) & at
-[git-projects](https://github.com/vtrokhymenko/AIkek/projects)
+more at [wiki](https://github.com/vtrokhymenko/aikek/wiki) & at
+[git-projects](https://github.com/vtrokhymenko/aikek/projects)
 
 ## citation:
 
-    @inproceedings{AIkek,
-        title={AIkek: open-source project from ods.ai},
-        author={Viktor Trokhymenko & Marina Pozhidaeva},
+    @inproceedings{aikek,
+        title={aikek: open-source project from ods.ai},
+        author={viktor trokhymenko & marina pozhidaeva},
         email={trokhymenkoviktor@gmail.com & m.a.pozhidaeva@gmail.com}
         year={2020}
-        license={MIT}
+        license={mit}
     }
