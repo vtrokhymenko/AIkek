@@ -1,4 +1,4 @@
-## AIkek
+## aikek
 
 more at [wiki](https://github.com/vtrokhymenko/AIkek/wiki) & at
 [git-projects](https://github.com/vtrokhymenko/AIkek/projects)
